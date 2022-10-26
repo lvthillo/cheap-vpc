@@ -13,7 +13,7 @@ Also UDP range `33434 - 33534` is allowed to use traceroute.
 ## Setup
 
 ```
-$ git clone
+$ git clone git@github.com:lvthillo/cheap-vpc.git
 $ npm i
 $ cdk deploy 
 ```
