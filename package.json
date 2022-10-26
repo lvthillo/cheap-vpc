@@ -8,13 +8,14 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "prettier-format": "prettier --config .prettierrc 'lib/**/*.ts' --write"
   },
   "devDependencies": {
-    "aws-cdk": "2.47.0",
     "@types/jest": "^27.5.2",
     "@types/node": "10.17.27",
     "@types/prettier": "2.6.0",
+    "aws-cdk": "2.47.0",
     "jest": "^27.5.1",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.9.1",
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "2.47.0",
+    "cdk-fck-nat": "^1.0.17",
     "constructs": "^10.0.0"
   }
 }
