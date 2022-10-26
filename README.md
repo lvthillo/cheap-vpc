@@ -1,7 +1,7 @@
 # The Cheap VPC Stack
 
-This example can be used to deploy a VPC using [cdk-fck-nat](https://github.com/AndrewGuenther/cdk-fck-nat).
-The advantages of cdk-fck-nat are described in the [README.md](https://github.com/AndrewGuenther/cdk-fck-nat/blob/main/README.md).
+This example can be used to deploy a VPC using [fck-nat](https://github.com/AndrewGuenther/fck-nat).
+The advantages of cdk-fck-nat are described in the [README.md](https://github.com/AndrewGuenther/fck-nat/blob/main/README.md).
 
 ## Architecture
 It will deploy a VPC with 4 subnets in 2 AZ's. It will deploy a `fck-nat` instance in each of the public subnets.
