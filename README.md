@@ -1,6 +1,6 @@
 # The Cheap VPC Stack
 
-This example can be used to deploy a VPC using [fck-nat](https://github.com/AndrewGuenther/fck-nat).
+This example can be used to deploy a VPC which makes use of [fck-nat](https://github.com/AndrewGuenther/fck-nat).
 The advantages of `fck-nat` are described in the [README.md](https://github.com/AndrewGuenther/fck-nat/blob/main/README.md).
 
 ## Architecture
