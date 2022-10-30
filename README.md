@@ -22,6 +22,6 @@ $ cdk deploy
 * Connect with bastion host using AWS Session Manager
 * Check route to internet: `traceroute google.com`
 * Verify if a `fck-nat` instance is used as hop.
-* Check route using VPC ednpoint: `sudo traceroute -n -T -p 443 s3.amazonaws.com`
+* Check route using VPC endpoint: `sudo traceroute -n -T -p 443 s3.amazonaws.com`
 
 
